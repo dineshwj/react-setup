@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThemeSwitcher /> should match the snapshot 1`] = `
+<React.Fragment>
+  <div
+    style={
+      Object {
+        "background": "#F3F3F3",
+        "borderBottom": "1px solid #999",
+        "display": "flex",
+        "justifyContent": "flex-end",
+        "paddingBottom": 5,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <label
+      htmlFor="themes"
+      style={
+        Object {
+          "fontSize": 12,
+          "marginRight": 20,
+        }
+      }
+    >
+      Select a theme to switch branding
+    </label>
+    <select
+      id="themes"
+      onChange={[Function]}
+      style={
+        Object {
+          "background": "#fff",
+          "border": "1px solid #999",
+          "borderRadius": "2px",
+          "padding": "0 10px",
+        }
+      }
+    >
+      <option
+        value="rbs_sliver"
+      >
+        RBS Sliver
+      </option>
+      <option
+        value="rbs_black"
+      >
+        RBS Black
+      </option>
+      <option
+        value="natwest_silver"
+      >
+        Natwest Sliver
+      </option>
+      <option
+        value="natwest_black"
+      >
+        Natwest Black
+      </option>
+    </select>
+  </div>
+</React.Fragment>
+`;
